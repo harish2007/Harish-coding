@@ -1,3 +1,5 @@
+imort Paddle from '/src/paddle';
+
 let canvas = document.getElementById("gameScreen");
 let ctx = canvas.getContext('2d');
 
@@ -8,4 +10,4 @@ ctx.clearRect(0, 0, 100, 100);
 
 let paddle = new Paddle(GAME_WIDTH, GAME_HEIGHT);
 
-paddle.draw();
+paddle.draw(ctx);
