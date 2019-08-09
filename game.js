@@ -6,3 +6,6 @@ const GAME_HEIGHT = 600;
 
 ctx.clearRect(0, 0, 100, 100);
 
+let paddle = new Paddle(GAME_WIDTH, GAME_HEIGHT);
+
+paddle.draw();
